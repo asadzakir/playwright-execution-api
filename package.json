@@ -1,0 +1,26 @@
+{
+  "name": "gtp-pw-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "GTP Playwright API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "playwright test"
+  },
+  "author": "Assad Zakir",
+  "license": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "playwright": "^1.46.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
